@@ -39,6 +39,30 @@
         margin: 100px 0;
     }
 
+    .idioma{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        bottom: 10px;
+        padding: 5px 5px 1px;
+        background-color: var(--color-blue);
+        border-radius: 50%;
+        transition: .3s;
+        margin: 10px 10px 0 0;
+
+        z-index: 1000000;
+    }
+
+    .img-bandera{
+        border-radius: 50% ;
+    }
+    
+    .idioma:hover{
+        background-color: #ff88dc;
+        transform: scale(1.1);
+    }
+
     /* NAVBAR */
 
     .logo-nav {
@@ -47,11 +71,15 @@
     }
 
     header {
-        position: inherit;
+        position: fixed;
         left: 0;
         top: 0;
         width: 100%;
-        z-index: 100;
+        z-index: 1000;
+    }
+
+    .header{
+        background-color: #333333b4;
     }
 
     nav {
@@ -88,6 +116,7 @@
         justify-content: space-between;
         background-position: 55% 50%;
         background-size: cover;
+        padding: 100px 0 0 0;
     }
 
     h1 {
