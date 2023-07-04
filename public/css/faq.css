@@ -4,6 +4,14 @@
         --color-blue: #00aeef;
     }
 
+    .capital-letter{
+        text-transform: lowercase;
+    }
+
+    .capital-letter::first-letter{
+        text-transform: uppercase;
+    }
+
     .body {
         min-height: 100%;
         line-height: 20px;
@@ -50,7 +58,6 @@
         border-radius: 50%;
         transition: .3s;
         margin: 10px 10px 0 0;
-
         z-index: 1000000;
     }
 
@@ -203,6 +210,8 @@
         letter-spacing: -0.017em;
         font-family: Archivo, sans-serif;
     }
+
+    
 
     .learn-more-mobile-faq {
         display: flex;

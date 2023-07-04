@@ -112,7 +112,7 @@
     /* MAIN SECTION */
 
     .section-main {
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../media/img/63e28587ee701899507c0ae4_AdobeStock_500888199.jpeg);
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../media/img/background-main.jpg);
         min-height: 100vh;
         display: flex;
         width: 100%;
